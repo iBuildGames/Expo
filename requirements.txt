@@ -8,6 +8,6 @@ opencv-python
 pillow
 matplotlib
 scikit-learn
-python == 3.11
+python
 
 
