@@ -1,13 +1,5 @@
-﻿streamlit
-torch  # Adjust to a valid version
+streamlit
+torch
 torchvision
-torchaudio
 numpy
-pandas
-opencv-python
-pillow
-matplotlib
-scikit-learn
-python
-
-
+Pillow
