@@ -30,7 +30,7 @@ def preprocess_image(image):
 
 st.title("Vision IA : Détection préventive de maladies occulaires")
 st.write("Soumettez une image afin de réaliser une prédiction.")
-
+st.write("Par Ludovic Perrier et Yimeng Chen")
 
 uploaded_file = st.file_uploader("Choisissez une image...", type=["png", "jpg", "jpeg", "tiff"])
 
