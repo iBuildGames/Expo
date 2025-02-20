@@ -17,7 +17,7 @@ class YourModel(nn.Module):
 
 # Initialize model and load weights
 model = YourModel()
-model.load_state_dict(torch.load("newer_model.pth", map_location=torch.device("cuda" if torch.cuda.is_available() else "cpu"))
+model.load_state_dict(torch.load("newer_model.pth", map_location=torch.device("cuda" if torch.cuda.is_available() else "cpu")))
 
 model.eval()  # Now it works!
 
